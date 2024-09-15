@@ -6,9 +6,9 @@ This mod adds the multifunctional console menu for comfortable modding, debuggin
  
 **K** - open debug console. 
 
-**N** - open variable inspector for object looking at. 
+**N** - open variable inspector for object you are looking at. 
 
-**B** - destroy object looking at. 
+**B** - destroy object you are looking at. 
 
 
 All these binds can be changed in config.
@@ -16,7 +16,15 @@ All these binds can be changed in config.
 ## Preview
 
 
+
 <details>
+<summary>Demonstration</summary>
+
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModMainMenuPreview.png?raw=true)
+</details>
+
+<details>
+
 <summary>Main menu</summary>
 
 ![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModMainMenuPreview.png?raw=true)
@@ -97,4 +105,35 @@ This interface section gives the ability to control some player stats.
 - Make player satiety non-consumable (75%+).
 - Make player sleepiness non-consumable (75%+). 
 - Make flashlight charge endless (100%).
+- Toggle spectator mode.
 
+
+## Manual instalation guide.
+
+<details>
+<summary>Install unreal shimloader</summary>
+
+1. Copy `dwmapi.dll` into the `GAME/Binaries/Win64` directory. Its new path should be `GAME/Binaries/Win64/dwmapi.dll`.
+2. Copy the contents of the `UE4SS` folder in the package into `GAME/Binaries/Win64`.
+
+`GAME/Binaries/Win64` should now contain the following *new* files and folders:
+- `GAME-Win64-Shipping.exe`
+- `ue4ss.dll`
+- `UE4SS-settings.ini`
+- `dwmapi.dll` ← *This is the unreal-shimloader binary. It will load UE4SS for you.*
+- `Mods/`
+</details>
+
+<details>
+<summary>Install VoidMod-2.0.1</summary>
+
+1. Copy `VoidMod2.pak` from the pak floader to `GAME/Content/Paks/LogicMods` directory. 
+</details>
+
+<details>
+<summary>Install DebugMod</summary>
+
+1. Copy `DebugMod.pak` from the `pak` floader to `GAME/Content/Paks/LogicMods` directory. 
+2. Copy the contents of the `mod` folder in `GAME/Binaries/Win64/Mods/Acitulen-DebugMod` directory.  
+*you have to create `Acitulen-DebugMod` floader manually.
+</details>
