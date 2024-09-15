@@ -13,14 +13,31 @@ This mod adds the multifunctional console menu for comfortable modding, debuggin
 
 All these binds can be changed in config.
 
-## Preview
+# Preview
 
 
 
 <details>
 <summary>Demonstration</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModMainMenuPreview.png?raw=true)
+ * **Teleport across worlds:**  
+
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModDemonstration2.png?raw=true)
+
+* **Event activator:**  
+
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModDemonstration3.png?raw=true)
+
+* **Variable inspector:**  
+
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModDemonstration1.png?raw=true)
+
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/VariableInspectorPreview.png?raw=true)
+
+* **Spectator:**  
+
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/SpectatorPreview.png?raw=true)
+
 </details>
 
 <details>
@@ -93,7 +110,8 @@ This interface section gives the ability to control states of the base.
 This interface section gives the ability to control some world settings.
 - Disable annoying unsolvable labyrinth (backrooms).
 - Open portable version of base console terminal. 
-- Open menu that gives ability to travel across different levels (not saves).
+- Open menu that gives ability to travel across different levels (not saves).  
+*Some levels may crash game.
 - Open menu that allows you to run some events.  
 *Most of events can only start in story mode.
 - Open menu that allows you to create waypoints and teleport to them.
