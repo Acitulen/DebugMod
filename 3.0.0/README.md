@@ -18,7 +18,7 @@ If you have any suggestions or found a bug you can send it as "issue" in my [git
 **Alt+L** - Toggle spectator. 
 
 
-All these binds can be changed in config.
+All these binds can be changed in **DebugMod config**.
 
 # Preview
 
@@ -27,23 +27,21 @@ All these binds can be changed in config.
 <details>
 <summary>Demonstration</summary>
 
- * **Teleport across worlds:**  
+* **Teleport across worlds:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModDemonstration2.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/TeleportAcrossWorldsDemonstration.png?raw=true)
 
 * **Event activator:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModDemonstration3.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/EventActivatorDemonstration.png?raw=true)
 
 * **Variable inspector:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModDemonstration1.png?raw=true)
-
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/VariableInspectorPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/PropertyInspectorDemonstration.png?raw=true)
 
 * **Spectator:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/SpectatorPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/SpectatorDemonstration.png?raw=true)
 
 </details>
 
