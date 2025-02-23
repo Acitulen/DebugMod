@@ -3,7 +3,7 @@ This mod adds the multifunctional console menu for comfortable modding, debuggin
   
 **⚠️WARNING⚠️ This version of DebugMod is designed to function with VotV-pa0082b_0006. Using older or newer versions of the game may cause errors!**  
 
-If you have any suggestions or found a bug you can send it as "issue" in my [gitHub repository](https://github.com/Acitulen/DebugMod).
+If you have any suggestions or found a bug you can send it as "issue" in my [github repository](https://github.com/Acitulen/DebugMod).
 
 # Binds (default):
 
