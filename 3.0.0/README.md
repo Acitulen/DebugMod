@@ -155,6 +155,8 @@ All these binds can be changed in **DebugMod config**.
 ## Other:
 - Portable version of base console terminal.
 - Teleport across worlds.
+- Property inspector.
+- Function inspector.
 
 ## Manual instalation guide.
 
