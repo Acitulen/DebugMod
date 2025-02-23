@@ -1,8 +1,12 @@
-# **DebugMod**
+# DebugMod
 This mod adds the multifunctional console menu for comfortable modding, debugging and manipulation.  
-WARNING. This version of DebugMod is designed to function with VotV-pa0082b_0006. Using older or newer versions of the game may cause errors!"
+  
+**⚠️WARNING⚠️ This version of DebugMod is designed to function with VotV-pa0082b_0006. Using older or newer versions of the game may cause errors!**  
+
+If you have any suggestions or found a bug you can send it as "issue" in my [gitHub repository](https://github.com/Acitulen/DebugMod).
 
 # Binds (default):
+
 **M** - open main debug menu.
  
 **Alt+N** - open variable inspector for object you are looking at. 
@@ -10,6 +14,8 @@ WARNING. This version of DebugMod is designed to function with VotV-pa0082b_0006
 **Alt+B** - destroy object you are looking at. 
 
 **Alt+P** - Toggle timestop. 
+
+**Alt+L** - Toggle spectator. 
 
 
 All these binds can be changed in config.
@@ -45,87 +51,112 @@ All these binds can be changed in config.
 
 <summary>Main menu</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModMainMenuPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/MainMenuMenu.png?raw=true)
 </details>
-
 
 <details>
-<summary>Servers menu</summary>
+<summary>Actor locator</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModServersPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/ActorLocatorMenu.png?raw=true)
 </details>
-
 
 <details>
 <summary>Console</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModConsolePreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/ConsoleMenu.png?raw=true)
+</details>
+
+<details>
+<summary>Servers</summary>
+
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/ServersMenu.png?raw=true)
+</details>
+
+<details>
+<summary>Debug mod config</summary>
+
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/DebugModConfigMenu.png?raw=true)
 </details>
 
 <details>
 <summary>Teleport across worlds</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModWorldTeleporterPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/TeleportAcrossWorldsMenu.png?raw=true)
 </details>
 
 <details>
-<summary>Events activator (WIP)</summary>
+<summary>Events activator</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModEventsActivatorPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/EventsActivatorMenu.png?raw=true)
 </details>
 
 <details>
 <summary>Waypoints</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/DebugModWaypointsPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/WaypointsMenu.png?raw=true)
 </details>
 
 # Features: 
-## Objects:
-This interface section allows to manipulate with all objects in a world.
-- Get location of all objects of the class.  
-*You can open variable inspector for located objects by pressing 'data' button.
-- Teleport player to found objects (Tp to).
-- Teleport objects to a player (Tp here).
-- Teleport all objects to a player.
-- Delete all objects of the class.
-
-
-## Stats:
-This interface section gives information about different important statistics in VotV and allows to manipulate some of them.
-- Get information about ariral reputation.
-- Set ariral reputation.
-- Show the information about the amount of power left in transformers.
-- Restore power in transformers.
-- Get information about the status of servers.
-- Break/fix/protect all servers.
-
-## Base settings:
-This interface section gives the ability to control states of the base.
-- Turn on/off all the lights.
-- Clean all base walls and floors from stains. 
-- Get rid of all useless (non-recyclable) rubbish.
-- Fix broken radio tower.
-
-## World settings:
-This interface section gives the ability to control some world settings.
+## Main menu:
 - Disable annoying unsolvable labyrinth (backrooms).
-- Open portable version of base console terminal. 
-- Open menu that gives ability to travel across different levels (not saves).  
-*Some levels may crash game.
-- Open menu that allows you to run some events.  
-*Most of events can only start in story mode.
-- Open menu that allows you to create waypoints and teleport to them.
+- Freeze everything except player.  
+*Some entities may move during timestop.
 - Change speed of day/night cycle.
-
-## Player settings:
-This interface section gives the ability to control some player stats.
+- Change ariral reputation.
 - Make player immortal.
 - Make player satiety non-consumable (75%+).
-- Make player sleepiness non-consumable (75%+). 
-- Make flashlight charge endless (100%).
+- Make player stamina non-consumable (75%+). 
+- Make flashlight charge infinite (100%+).
+- Make player inventory infinite.
 - Toggle spectator mode.
+- Turn on/off all the lights.
+- Clean all base walls and floors from stains. 
+- Remove all useless (non-recyclable) trash.
+- Fix broken radio tower.
+- Reboot transformers.
 
+## Actor locator:
+- Find any actor in the world.
+- Get actor locations.
+- Teleport to actors.
+- Teleport actors to player.
+- Inspect actors.
+- Destroy actors.
+
+## Servers:
+- Break servers.
+- Fix servers.
+- Protect servers.
+- Copy today's task.
+
+## Debug mod config:
+- Set bind for main debug menu.
+- Set bind for variable inspector.
+- Set bind for destroy object function.
+- Set bind for timestop.
+- Set bind for spectator.
+- Set searches per tick.  
+*higher values may increase lags.
+- Set elements per page.  
+*higher values may increase lags.
+- Toggle timestop sounds.
+
+## Event activator:
+- Run story events.  
+*Most of events can only start in story mode.
+- Run trigger events.
+- Run ticker events.  
+*You need to set the number of tries to execute an event.
+
+## Waypoints:
+- Create waypoints.
+- Delete waypoints.
+- Teleport to waypoints.  
+*All waypoints are the same for all worlds.
+
+## Other:
+- Portable version of base console terminal.
+- Teleport across worlds.
 
 ## Manual instalation guide.
 
@@ -144,15 +175,9 @@ This interface section gives the ability to control some player stats.
 </details>
 
 <details>
-<summary>Install VoidMod-2.0.1</summary>
-
-1. Copy `VoidMod2.pak` from the pak floader to `GAME/Content/Paks/LogicMods` directory. 
-</details>
-
-<details>
 <summary>Install DebugMod</summary>
 
-1. Copy `DebugMod.pak` from the `pak` floader to `GAME/Content/Paks/LogicMods` directory. 
+1. Copy `DebugMod.pak` from the `pak` folder to `GAME/Content/Paks/LogicMods` directory. 
 2. Copy the contents of the `mod` folder in `GAME/Binaries/Win64/Mods/Acitulen-DebugMod` directory.  
-*you have to create `Acitulen-DebugMod` floader manually.
+*you have to create `Acitulen-DebugMod` folder manually.
 </details>
