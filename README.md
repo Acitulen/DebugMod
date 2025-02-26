@@ -18,7 +18,8 @@ If you have any suggestions or found a bug you can send it as "issue" in my [git
 **Alt+L** - Toggle spectator. 
 
 
-All these binds can be changed in **DebugMod config**.
+All these binds can be changed in **DebugMod config**.  
+You can reset all binds by pressing **Ctrl+Shift+R**.
 
 # Preview
 
@@ -29,19 +30,23 @@ All these binds can be changed in **DebugMod config**.
 
 * **Teleport across worlds:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/TeleportAcrossWorldsDemonstration.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/TeleportAcrossWorldsDemonstration.png?raw=true)
 
 * **Event activator:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/EventActivatorDemonstration.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/EventActivatorDemonstration.png?raw=true)
 
 * **Variable inspector:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/PropertyInspectorDemonstration.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/PropertyInspectorDemonstration.png?raw=true)
 
 * **Spectator:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/SpectatorDemonstration.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/SpectatorDemonstration.png?raw=true)
+
+* **Extended spawn menu:**  
+
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.1.0/Preview/ExtendedSpawnMenuDemonstration.png?raw=true)
 
 </details>
 
@@ -49,49 +54,55 @@ All these binds can be changed in **DebugMod config**.
 
 <summary>Main menu</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/MainMenuMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/MainMenuMenu.png?raw=true)
 </details>
 
 <details>
 <summary>Actor locator</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/ActorLocatorMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/ActorLocatorMenu.png?raw=true)
 </details>
 
 <details>
 <summary>Console</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/ConsoleMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/ConsoleMenu.png?raw=true)
 </details>
 
 <details>
 <summary>Servers</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/ServersMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/ServersMenu.png?raw=true)
 </details>
 
 <details>
 <summary>Debug mod config</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/DebugModConfigMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/DebugModConfigMenu.png?raw=true)
 </details>
 
 <details>
 <summary>Teleport across worlds</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/TeleportAcrossWorldsMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/TeleportAcrossWorldsMenu.png?raw=true)
 </details>
 
 <details>
 <summary>Events activator</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/EventsActivatorMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/EventsActivatorMenu.png?raw=true)
+</details>
+
+<details>
+<summary>Extended spawn menu</summary>
+
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.1.0/Preview/ExtendedSpawnMenuMenu.png?raw=true)
 </details>
 
 <details>
 <summary>Waypoints</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/main/3.0.0/Preview/WaypointsMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/WaypointsMenu.png?raw=true)
 </details>
 
 # Features: 
@@ -155,6 +166,7 @@ All these binds can be changed in **DebugMod config**.
 ## Other:
 - Portable version of base console terminal.
 - Teleport across worlds.
+- Extended spawn menu.
 - Property inspector.
 - Function inspector.
 
