@@ -54,7 +54,7 @@ You can reset all binds by pressing **Ctrl+Shift+R**.
 
 <summary>Main menu</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/MainMenuMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/3.1.0/Preview/MainMenuMenu.png?raw=true)
 </details>
 
 <details>
