@@ -1,28 +1,28 @@
 # DebugMod
-This mod adds the multifunctional console menu for comfortable modding, debugging and manipulation.  
+This mod adds a multifunctional console menu for convenient modding, debugging, and in-game manipulation.  
   
 **⚠️WARNING⚠️ This version of DebugMod is designed to function with VotV 0.8.2c_0011. Using older or newer versions of the game may cause errors!**  
 
-If you have any suggestions or found a bug you can send it as "issue" in my [github repository](https://github.com/Acitulen/DebugMod).
+If you have any suggestions or encounter a bug, you can submit it as an issue on my [GitHub repository](https://github.com/Acitulen/DebugMod).
 
 ---
 
 # **Configs**:
 Configs can be accessed in the game settings under the **Mod configs** category or by pressing **Ctrl+Shift+C**.
 
-- **MainMenu** - Sets bind to open main debug menu.  
+- **MainMenu** - Sets the keybind to open main debug menu.  
   **Default:** `M`
  
-- **Inspect** - Sets bind to open variable inspector for object you are looking at.  
+- **Inspect** - Sets the keybind to open variable inspector for object you are looking at.  
   **Default:** `Alt+N`
 
-- **Delete** - Sets bind to destroy object you are looking at.  
+- **Delete** - Sets the keybind to destroy object you are looking at.  
   **Default:** `Alt+B`
 
-- **TimeStop** - Sets bind to Toggle timestop.  
+- **TimeStop** - Sets the keybind to toggle timestop.  
   **Default:** `Alt+P`
 
-- **Spectator** - Sets bind to Toggle spectator.  
+- **Spectator** - Sets the keybind to toggle spectator.  
   **Default:** `Alt+L`
 
 - **TimestopSounds** - Enables time stop sounds.  
@@ -130,7 +130,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - Disable max hp loss.
 - Disable bleeding.
 - Disable ragdoll.
-- Enable fullbright to perfect vision at night.
+- Enable fullbright for perfect night vision.
 - Make player inventory infinite.
 - Toggle spectator mode.
 - Turn on/off all the lights.
@@ -156,7 +156,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 ## Event activator:
 - Run story events.  
-*Most of events can only start in story mode.
+*Most events can only be started in story mode.
 - Run trigger events.
 - Run ticker events.  
 *You need to set the number of tries to execute an event.
@@ -176,7 +176,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 ---
 
-## Manual instalation guide.
+## Manual installation guide.
 
 <details>
 <summary>Install unreal shimloader</summary>
@@ -196,6 +196,6 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 <summary>Install DebugMod</summary>
 
 1. Copy `DebugMod.pak` from the `pak` folder to `GAME/Content/Paks/LogicMods` directory. 
-2. Copy the contents of the `mod` folder in `GAME/Binaries/Win64/Mods/Acitulen-DebugMod` directory.  
-*you have to create `Acitulen-DebugMod` folder manually.
+2. Copy the contents of the `mod` folder into the `GAME/Binaries/Win64/Mods/Acitulen-DebugMod` directory.  
+*You need to create the Acitulen-DebugMod folder manually.
 </details>
