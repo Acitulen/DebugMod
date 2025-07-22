@@ -154,6 +154,11 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - Protect servers.
 - Copy today's task.
 
+## Signal panel:
+- View signal images from all levels.
+- Listen signal sounds from all levels.
+- Read signal messages from all levels.
+
 ## Event activator:
 - Run story events.  
 *Most events can only be started in story mode.
