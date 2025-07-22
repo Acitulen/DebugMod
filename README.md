@@ -7,7 +7,6 @@ If you have any suggestions or found a bug you can send it as "issue" in my [git
 
 ---
 
-
 # **Configs**:
 Configs can be accessed in the game settings under the **Mod configs** category or by pressing **Ctrl+Shift+C**.
 
@@ -29,13 +28,9 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - **TimestopSounds** - Enables time stop sounds.  
   **Default:** `true`
 
-
 ---
 
-
 # Preview
-
-
 
 <details>
 <summary>Demonstration</summary>
@@ -178,6 +173,8 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - Extended spawn menu.
 - Property inspector.
 - Function inspector and executor.
+
+---
 
 ## Manual instalation guide.
 
