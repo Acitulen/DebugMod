@@ -1,25 +1,37 @@
 # DebugMod
 This mod adds the multifunctional console menu for comfortable modding, debugging and manipulation.  
   
-**⚠️WARNING⚠️ This version of DebugMod is designed to function with VotV-pa0082b_0006. Using older or newer versions of the game may cause errors!**  
+**⚠️WARNING⚠️ This version of DebugMod is designed to function with VotV 0.8.2c_0011. Using older or newer versions of the game may cause errors!**  
 
-If you have any suggestions or found a bug you can send it as "issue" in my [github repository](https://github.com/Acitulen/DebugMod/tree/3.1.0).
+If you have any suggestions or found a bug you can send it as "issue" in my [github repository](https://github.com/Acitulen/DebugMod).
 
-# Binds (default):
+---
 
-**M** - open main debug menu.
+
+# **Configs**:
+Configs can be accessed in the game settings under the **Mod configs** category or by pressing **Ctrl+Shift+C**.
+
+- **MainMenu** - Sets bind to open main debug menu.
+  **Default:** `M`
  
-**Alt+N** - open variable inspector for object you are looking at. 
+- **Inspect** - Sets bind to open variable inspector for object you are looking at. 
+  **Default:** `Alt+N`
 
-**Alt+B** - destroy object you are looking at. 
+- **Delete** - Sets bind to destroy object you are looking at. 
+  **Default:** `Alt+B`
 
-**Alt+P** - Toggle timestop. 
+- **TimeStop** - Sets bind to Toggle timestop. 
+  **Default:** `Alt+P`
 
-**Alt+L** - Toggle spectator. 
+- **Spectator** - Sets bind to Toggle spectator. 
+  **Default:** `Alt+L`
+
+- **TimestopSounds** - Enables time stop sounds.
+  **Default:** `true`
 
 
-All these binds can be changed in **DebugMod config**.  
-You can reset all binds by pressing **Ctrl+Shift+R**.
+---
+
 
 # Preview
 
@@ -54,55 +66,55 @@ You can reset all binds by pressing **Ctrl+Shift+R**.
 
 <summary>Main menu</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.1.0/Preview/MainMenuMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/MainMenuPreview.png?raw=true)
 </details>
 
 <details>
 <summary>Actor locator</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/ActorLocatorMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/ActorLocatorPreview.png?raw=true)
 </details>
 
 <details>
 <summary>Console</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/ConsoleMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/ConsolePreview.png?raw=true)
 </details>
 
 <details>
 <summary>Servers</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/ServersMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/ServerPreview.png?raw=true)
 </details>
 
 <details>
-<summary>Debug mod config</summary>
+<summary>Signal panel</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/DebugModConfigMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/SignalPanelPreview.png?raw=true)
 </details>
 
 <details>
 <summary>Teleport across worlds</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/TeleportAcrossWorldsMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/TeleportAcrossWorldsPreview.png?raw=true)
 </details>
 
 <details>
 <summary>Events activator</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/EventsActivatorMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/EventActivatorPreview.png?raw=true)
 </details>
 
 <details>
 <summary>Extended spawn menu</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.1.0/Preview/ExtendedSpawnMenuMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/ExtendedSpawnMenuPreview.png?raw=true)
 </details>
 
 <details>
 <summary>Waypoints</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/WaypointsMenu.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/WaypointPreview.png?raw=true)
 </details>
 
 # Features: 
@@ -111,11 +123,19 @@ You can reset all binds by pressing **Ctrl+Shift+R**.
 - Freeze everything except player.  
 *Some entities may move during timestop.
 - Change speed of day/night cycle.
+- Set time to `00:00`, `12:00` or `03:30`.
 - Change ariral reputation.
+- Change in hand drive processing level.
+- Force save game, even during events.
+- Set player points.
 - Make player immortal.
 - Make player satiety non-consumable (75%+).
 - Make player stamina non-consumable (75%+). 
 - Make flashlight charge infinite (100%+).
+- Disable max hp loss.
+- Disable bleeding.
+- Disable ragdoll.
+- Enable fullbright to perfect vision at night.
 - Make player inventory infinite.
 - Toggle spectator mode.
 - Turn on/off all the lights.
@@ -123,6 +143,7 @@ You can reset all binds by pressing **Ctrl+Shift+R**.
 - Remove all useless (non-recyclable) trash.
 - Fix broken radio tower.
 - Reboot transformers.
+- Base power control.
 
 ## Actor locator:
 - Find any actor in the world.
@@ -137,18 +158,6 @@ You can reset all binds by pressing **Ctrl+Shift+R**.
 - Fix servers.
 - Protect servers.
 - Copy today's task.
-
-## Debug mod config:
-- Set bind for main debug menu.
-- Set bind for variable inspector.
-- Set bind for destroy object function.
-- Set bind for timestop.
-- Set bind for spectator.
-- Set searches per tick.  
-*higher values may increase lags.
-- Set elements per page.  
-*higher values may increase lags.
-- Toggle timestop sounds.
 
 ## Event activator:
 - Run story events.  
@@ -168,7 +177,7 @@ You can reset all binds by pressing **Ctrl+Shift+R**.
 - Teleport across worlds.
 - Extended spawn menu.
 - Property inspector.
-- Function inspector.
+- Function inspector and executor.
 
 ## Manual instalation guide.
 
