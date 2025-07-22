@@ -49,7 +49,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 * **Spectator:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/SpectatorDemonstration.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/SpectatorDemonstration.png?raw=true)
 
 * **Extended spawn menu:**  
 
