@@ -11,22 +11,22 @@ If you have any suggestions or found a bug you can send it as "issue" in my [git
 # **Configs**:
 Configs can be accessed in the game settings under the **Mod configs** category or by pressing **Ctrl+Shift+C**.
 
-- **MainMenu** - Sets bind to open main debug menu.
+- **MainMenu** - Sets bind to open main debug menu.  
   **Default:** `M`
  
-- **Inspect** - Sets bind to open variable inspector for object you are looking at. 
+- **Inspect** - Sets bind to open variable inspector for object you are looking at.  
   **Default:** `Alt+N`
 
-- **Delete** - Sets bind to destroy object you are looking at. 
+- **Delete** - Sets bind to destroy object you are looking at.  
   **Default:** `Alt+B`
 
-- **TimeStop** - Sets bind to Toggle timestop. 
+- **TimeStop** - Sets bind to Toggle timestop.  
   **Default:** `Alt+P`
 
-- **Spectator** - Sets bind to Toggle spectator. 
+- **Spectator** - Sets bind to Toggle spectator.  
   **Default:** `Alt+L`
 
-- **TimestopSounds** - Enables time stop sounds.
+- **TimestopSounds** - Enables time stop sounds.  
   **Default:** `true`
 
 
