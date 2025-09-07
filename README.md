@@ -68,7 +68,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 <summary>Main menu</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/MainMenuPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/MainMenuPreview.png?raw=true)
 </details>
 
 <details>
