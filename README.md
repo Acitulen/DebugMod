@@ -25,6 +25,9 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - **Spectator** - Sets the keybind to toggle spectator.  
   **Default:** `Alt+L`
 
+- **SpectatorHints** - Enables hints in spectator mode.  
+  **Default:** `true`
+
 - **TimestopSounds** - Enables time stop sounds.  
   **Default:** `true`
 
