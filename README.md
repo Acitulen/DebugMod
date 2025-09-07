@@ -72,9 +72,9 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 </details>
 
 <details>
-<summary>Actor locator</summary>
+<summary>Object locator</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/ActorLocatorPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/ObjectLocatorPreview.png?raw=true)
 </details>
 
 <details>
