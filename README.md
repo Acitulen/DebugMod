@@ -129,7 +129,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - Change global time speed.
 - Change player time speed.
 - Change ariral reputation.
-- Change in hand drive processing level.
+- Change in-hand drive processing level.
 - Force save game, even during events.
 - Set player points.
 - Make player immortal.
