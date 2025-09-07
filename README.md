@@ -110,7 +110,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 <details>
 <summary>Extended spawn menu</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/ExtendedSpawnMenuPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/ExtendedSpawnMenuPreview.png?raw=true)
 </details>
 
 <details>
