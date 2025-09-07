@@ -60,7 +60,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 * **Extended spawn menu (with deferred spawn):**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/Entities.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/SpawnMenuDemonstration.png?raw=true)
 
 </details>
 
