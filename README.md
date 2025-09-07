@@ -126,6 +126,8 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 *Some entities may move during timestop.
 - Change speed of day/night cycle.
 - Set time to `00:00`, `12:00` or `03:30`.
+- Change global time speed.
+- Change player time speed.
 - Change ariral reputation.
 - Change in hand drive processing level.
 - Force save game, even during events.
@@ -143,17 +145,19 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - Turn on/off all the lights.
 - Clean all base walls and floors from stains. 
 - Remove all useless (non-recyclable) trash.
+- Clean main base window. 
 - Fix broken radio tower.
 - Reboot transformers.
 - Base power control.
 
-## Actor locator:
+## Object locator:
 - Find any actor in the world.
-- Get actor locations.
-- Teleport to actors.
-- Teleport actors to player.
-- Inspect actors.
-- Destroy actors.
+- Find any props in the world.
+- Get objects locations.
+- Teleport to objects.
+- Teleport objects to player.
+- Inspect objects.
+- Destroy objects.
 
 ## Servers:
 - Break servers.
