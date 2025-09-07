@@ -13,7 +13,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - **MainMenu** - Sets the keybind to open main debug menu.  
   **Default:** `M`
  
-- **Inspect** - Sets the keybind to open variable inspector for object you are looking at.  
+- **Inspect** - Sets the keybind to open object inspector for object you are looking at.  
   **Default:** `Alt+N`
 
 - **Delete** - Sets the keybind to destroy object you are looking at.  
@@ -27,6 +27,13 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 - **TimestopSounds** - Enables time stop sounds.  
   **Default:** `true`
+
+- **ZoneScanner** - Enables zone scanner mode of object inspector.  
+  **Default:** `false`  
+
+- **ScannerRange** - Sets range of the zone scanner.  
+  **Default:** `300`
+
 
 ---
 
@@ -51,9 +58,9 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 ![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/SpectatorDemonstration.png?raw=true)
 
-* **Extended spawn menu:**  
+* **Extended spawn menu (with deferred spawn):**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.1.0/Preview/ExtendedSpawnMenuDemonstration.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/Entities.png?raw=true)
 
 </details>
 
