@@ -98,7 +98,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 <details>
 <summary>Teleport across worlds</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/TeleportAcrossWorldsPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/TeleportAcrossWorldsPreview.png?raw=true)
 </details>
 
 <details>
