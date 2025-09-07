@@ -44,7 +44,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 * **Teleport across worlds:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/TeleportAcrossWorldsDemonstration.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/TeleportAcrossWorldsDemonstration.png?raw=true)
 
 * **Event activator:**  
 
