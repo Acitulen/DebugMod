@@ -40,6 +40,11 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - **ZoneRadius** - Sets range of the zone inspector. Can also be changed in-game by scrolling the mouse wheel.  
   **Default:** `300`
 
+- **ElementsPerPage** - Sets the maximum number of elements displayed on a single page of a list (may affect performance).  
+  **Default:** `100`  
+
+- **PerTickSearches** - Sets the maximum number of UI elements created per tick (may affect performance).  
+  **Default:** `10`
 
 ---
 
