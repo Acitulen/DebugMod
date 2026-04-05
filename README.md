@@ -1,7 +1,7 @@
 # DebugMod
 This mod adds a multifunctional console menu for convenient modding, debugging, and in-game manipulation.  
   
-**⚠️WARNING⚠️ This version of DebugMod is designed to function with VotV 0.8.2c_0011. Using older or newer versions of the game may cause errors!**  
+**⚠️WARNING⚠️ This version of DebugMod is designed to function with VotV a0.9.0j. Using older or newer versions of the game may cause errors!**  
 
 If you have any suggestions or encounter a bug, you can submit it as an issue on my [GitHub repository](https://github.com/Acitulen/DebugMod).
 
@@ -10,31 +10,34 @@ If you have any suggestions or encounter a bug, you can submit it as an issue on
 # **Configs**:
 Configs can be accessed in the game settings under the **Mod configs** category or by pressing **Ctrl+Shift+C**.
 
-- **MainMenu** - Sets the keybind to open main debug menu.  
+- **MainMenuBind** - Sets the keybind to open main debug menu.  
   **Default:** `M`
- 
-- **Inspect** - Sets the keybind to open object inspector for object you are looking at.  
-  **Default:** `Alt+N`
 
-- **Delete** - Sets the keybind to destroy object you are looking at.  
+- **DestroyBind** - Sets the keybind to destroy the object you are looking at.  
   **Default:** `Alt+B`
 
-- **TimeStop** - Sets the keybind to toggle timestop.  
-  **Default:** `Alt+P`
+- **InspectBind** - Sets the keybind to open object inspector for object you are looking at.  
+  **Default:** `Alt+N`
 
-- **Spectator** - Sets the keybind to toggle spectator.  
+- **TimeStopBind** - Sets the keybind to toggle timestop.  
+  **Default:** `Alt+T`
+
+- **ToggleSpectatorBind** - Sets the keybind to toggle spectator.  
+  **Default:** `Alt+V`
+
+- **SwapSpectatorBind** - Sets the keybind to replace spectator with player.  
   **Default:** `Alt+L`
 
 - **SpectatorHints** - Enables hints in spectator mode.  
   **Default:** `true`
 
-- **TimestopSounds** - Enables time stop sounds.  
+- **TimestopSounds** - Enables sound effects during time stop activation.  
   **Default:** `true`
 
-- **ZoneScanner** - Enables zone scanner mode of object inspector.  
-  **Default:** `false`  
+- **InspectorMode** - Allows you to choose one of three inspector modes: Object for Actors, Component for Actor mesh components and Zone for scanning multiple actors in radius. 
+  **Default:** `Object`  
 
-- **ScannerRange** - Sets range of the zone scanner.  
+- **ZoneRadius** - Sets range of the zone inspector. Can also be changed in-game by scrolling the mouse wheel.  
   **Default:** `300`
 
 
@@ -47,23 +50,27 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 * **Teleport across worlds:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/TeleportAcrossWorldsDemonstration.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/TeleportAcrossWorldsDemonstration.png?raw=true)
 
 * **Event activator:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/EventActivatorDemonstration.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/EventActivatorDemonstration.png?raw=true)
 
 * **Variable inspector:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/3.0.0/Preview/PropertyInspectorDemonstration.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/PropertyInspectorDemonstration.png?raw=true)
 
 * **Spectator:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/SpectatorDemonstration.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/SpectatorDemonstration.png?raw=true)
 
 * **Extended spawn menu (with deferred spawn):**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/SpawnMenuDemonstration.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/SpawnMenuDemonstration.png?raw=true)
+
+* **ESP:**  
+
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/ESPDemonstration.png?raw=true)
 
 </details>
 
@@ -71,71 +78,73 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 <summary>Main menu</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/MainMenuPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/MainMenuPreview.png?raw=true)
 </details>
 
 <details>
 <summary>Object locator</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/ObjectLocatorPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/ObjectLocatorPreview.png?raw=true)
 </details>
 
 <details>
 <summary>Console</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/ConsolePreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/ConsolePreview.png?raw=true)
 </details>
 
 <details>
 <summary>Servers</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/ServerPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/ServerPreview.png?raw=true)
 </details>
 
 <details>
 <summary>Signal panel</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/SignalPanelPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/SignalPanelPreview.png?raw=true)
 </details>
 
 <details>
 <summary>Teleport across worlds</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/TeleportAcrossWorldsPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/TeleportAcrossWorldsPreview.png?raw=true)
 </details>
 
 <details>
 <summary>Events activator</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/EventActivatorPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/EventActivatorPreview.png?raw=true)
 </details>
 
 <details>
 <summary>Extended spawn menu</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.1.0/Preview/ExtendedSpawnMenuPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/ExtendedSpawnMenuPreview.png?raw=true)
 </details>
 
 <details>
 <summary>Waypoints</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/4.0.0/Preview/WaypointPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/WaypointPreview.png?raw=true)
 </details>
 
 # Features: 
 ## Main menu:
-- Disable annoying unsolvable labyrinth (backrooms).
-- Freeze everything except player.  
-*Some entities may move during timestop.
-- Change speed of day/night cycle.
+- Freeze everything except player.
+- *Some entities may move during timestop.
 - Set time to `00:00`, `12:00` or `03:30`.
+- Change speed of day/night cycle.
 - Change global time speed.
 - Change player time speed.
 - Change ariral reputation.
 - Change in-hand drive processing level.
 - Force save game, even during events.
+- Disable annoying unsolvable labyrinth (backrooms).
+- Prevent crashing from some entities and events.
 - Set player points.
 - Make player immortal.
+- Make player prevent death.
 - Make player satiety non-consumable (75%+).
 - Make player stamina non-consumable (75%+). 
 - Make flashlight charge infinite (100%+).
@@ -146,8 +155,8 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - Make player inventory infinite.
 - Toggle spectator mode.
 - Turn on/off all the lights.
-- Clean all base walls and floors from stains. 
-- Remove all useless (non-recyclable) trash.
+- Clean and fix all base walls and floors from stains and cracks. 
+- Remove trash.
 - Clean main base window. 
 - Fix broken radio tower.
 - Reboot transformers.
@@ -157,6 +166,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - Find any actor in the world.
 - Find any props in the world.
 - Get objects locations.
+- ESP objects.
 - Teleport to objects.
 - Teleport objects to player.
 - Inspect objects.
@@ -166,14 +176,16 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - Break servers.
 - Fix servers.
 - Protect servers.
-- Copy today's task.
+- Spawn items for today's task.
 
 ## Signal panel:
 - View signal images from all levels.
 - Listen signal sounds from all levels.
 - Read signal messages from all levels.
+- Spawn drives with signals from all levels.
 
-## Event activator:
+## Event panel:
+- Monitor meta paranoia.
 - Run story events.  
 *Most events can only be started in story mode.
 - Run trigger events.
@@ -188,7 +200,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 ## Other:
 - Portable version of base console terminal.
-- Teleport across worlds.
+- Teleport across levels.
 - Extended spawn menu.
 - Property inspector.
 - Function inspector and executor.
