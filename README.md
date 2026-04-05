@@ -114,7 +114,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 <details>
 <summary>Events activator</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/EventActivatorPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/EventPanelPreview.png?raw=true)
 </details>
 
 <details>
@@ -126,7 +126,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 <details>
 <summary>Waypoints</summary>
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/WaypointPreview.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/WaypointsPreview.png?raw=true)
 </details>
 
 # Features: 
