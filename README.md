@@ -81,7 +81,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 * **Viewmodes:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.1/Preview/Viewmodes.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.1/Preview/ViewModes.png?raw=true)
 
 </details>
 
