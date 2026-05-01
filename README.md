@@ -1,7 +1,7 @@
 # DebugMod
 This mod adds a multifunctional console menu for convenient modding, debugging, and in-game manipulation.  
   
-**⚠️WARNING⚠️ This version of DebugMod is designed to function with VotV a0.9.0j. Using older or newer versions of the game may cause errors!**  
+**⚠️WARNING⚠️ This version of DebugMod is designed to function with VotV 0.9.0k. Using older or newer versions of the game may cause errors!**  
 
 If you have any suggestions or encounter a bug, you can submit it as an issue on my [GitHub repository](https://github.com/Acitulen/DebugMod).
 
