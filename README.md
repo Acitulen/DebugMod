@@ -46,6 +46,8 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - **PerTickSearches** - Sets the maximum number of UI elements created per tick (may affect performance).  
   **Default:** `10`
 
+- **ResetLocks** - Resets all locks.  
+
 ---
 
 # Preview
@@ -76,6 +78,10 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 * **ESP:**  
 
 ![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/ESPDemonstration.png?raw=true)
+
+* **Viewmodes:**  
+
+![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.1/Preview/Viewmodes.png?raw=true)
 
 </details>
 
