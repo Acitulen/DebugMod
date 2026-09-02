@@ -244,7 +244,6 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 <details>
 <summary>Install ModUtils</summary>
 
-DebugMod does not work without [ModUtils](https://github.com/Acitulen/ModUtils). Install it before DebugMod:
 1. Copy `ModUtils.pak` from the `pak` folder of the ModUtils package to `GAME/Content/Paks/LogicMods` directory.
 2. Copy the contents of the `mod` folder of the ModUtils package into the `GAME/Binaries/Win64/Mods/Acitulen-ModUtils` directory.  
 *You need to create the `Acitulen-ModUtils` folder manually.
