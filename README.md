@@ -1,7 +1,7 @@
 # DebugMod
 This mod adds a multifunctional console menu for convenient modding, debugging, and in-game manipulation.  
   
-**⚠️WARNING⚠️ This version of DebugMod is designed to function with VotV 0.9.0k. Using older or newer versions of the game may cause errors!**  
+**⚠️WARNING⚠️ This version of DebugMod is designed to function with VotV 0.9.0n. Using older or newer versions of the game may cause errors!**  
 
 If you have any suggestions or encounter a bug, you can submit it as an issue on my [GitHub repository](https://github.com/Acitulen/DebugMod).
 
@@ -31,7 +31,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - **SpectatorHints** - Enables hints in spectator mode.  
   **Default:** `true`
 
-- **TimestopSounds** - Enables sound effects during time stop activation.  
+- **TimeStopSounds** - Enables sound effects during time stop activation.  
   **Default:** `true`
 
 - **InspectorMode** - Allows you to choose one of three inspector modes: Object for Actors, Component for Actor mesh components and Zone for scanning multiple actors in radius. 
@@ -41,10 +41,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
   **Default:** `300`
 
 - **ElementsPerPage** - Sets the maximum number of elements displayed on a single page of a list (may affect performance).  
-  **Default:** `100`  
-
-- **PerTickSearches** - Sets the maximum number of UI elements created per tick (may affect performance).  
-  **Default:** `10`
+  **Default:** `200`  
 
 - **ResetLocks** - Resets all locks.  
 
@@ -85,7 +82,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 * **Viewmodes:**  
 
-![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.1/Preview/ViewModes.png?raw=true)
+![Preview](https://github.com/Acitulen/DebugMod/blob/6.0.0/Preview/Viewmodes.png?raw=true)
 
 </details>
 
@@ -157,9 +154,10 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - Force save game, even during events.
 - Disable annoying unsolvable labyrinth (backrooms).
 - Prevent crashing from some entities and events.
+- Prevent force teleport.
 - Set player points.
 - Make player immortal.
-- Make player prevent death.
+- Prevent player death.
 - Make player satiety non-consumable (75%+).
 - Make player stamina non-consumable (75%+). 
 - Make flashlight charge infinite (100%+).
@@ -174,6 +172,7 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - Remove trash.
 - Clean main base window. 
 - Fix broken radio tower.
+- Fix broken radar towers.
 - Reboot transformers.
 - Base power control.
 
@@ -219,6 +218,10 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 - Extended spawn menu.
 - Property inspector.
 - Function inspector and executor.
+- Ability to disable execution of functions.
+- Bytecode analyzer: view, search and patch the bytecode of Blueprint functions.
+- Edited functions menu: review and reset disabled functions and bytecode patches.
+- Protection from accidental destruction of important objects.
 
 ---
 
@@ -239,9 +242,18 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 </details>
 
 <details>
+<summary>Install ModUtils</summary>
+
+DebugMod does not work without [ModUtils](https://github.com/Acitulen/ModUtils). Install it before DebugMod:
+1. Copy `ModUtils.pak` from the `pak` folder of the ModUtils package to `GAME/Content/Paks/LogicMods` directory.
+2. Copy the contents of the `mod` folder of the ModUtils package into the `GAME/Binaries/Win64/Mods/Acitulen-ModUtils` directory.  
+*You need to create the `Acitulen-ModUtils` folder manually.
+</details>
+
+<details>
 <summary>Install DebugMod</summary>
 
 1. Copy `DebugMod.pak` from the `pak` folder to `GAME/Content/Paks/LogicMods` directory. 
 2. Copy the contents of the `mod` folder into the `GAME/Binaries/Win64/Mods/Acitulen-DebugMod` directory.  
-*You need to create the Acitulen-DebugMod folder manually.
+*You need to create the `Acitulen-DebugMod` folder manually.
 </details>
