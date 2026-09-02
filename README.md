@@ -67,6 +67,10 @@ Configs can be accessed in the game settings under the **Mod configs** category 
 
 ![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/PropertyInspectorDemonstration.png?raw=true)
 
+* **Bytecode inspector:**  
+
+![Preview](https://github.com/Acitulen/DebugMod/blob/6.0.0/Preview/BytecodeInspector.png?raw=true)
+
 * **Spectator:**  
 
 ![Preview](https://github.com/Acitulen/DebugMod/blob/5.0.0/Preview/SpectatorDemonstration.png?raw=true)
